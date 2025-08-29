@@ -77,7 +77,6 @@ button:hover {
   color: #fff;
 }
 
-/* ✅ Mobile Responsive */
 @media (max-width: 500px) {
   .calculator {
     width: 95%;
@@ -92,3 +91,4 @@ button:hover {
     font-size: 1rem;
   }
 }
+
