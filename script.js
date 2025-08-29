@@ -57,7 +57,6 @@ buttons.forEach(button => {
   });
 });
 
-// ✅ Keyboard Support
 document.addEventListener("keydown", (event) => {
   if ("0123456789+-*/.".includes(event.key)) {
     currentInput += event.key;
@@ -79,3 +78,4 @@ document.addEventListener("keydown", (event) => {
     updateDisplay("0");
   }
 });
+
